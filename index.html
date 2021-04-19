@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Code Quiz</title>
+</head>
+
+<body>
+
+    <span class="viewHighscores">View Highscores</span>
+    <span class="timer">Time: <span class="stopwatch">0</span></span>
+
+    <div class="intro">
+        <h1>Coding Quiz Challenge</h1>
+        <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers
+            will penalize your score/time by ten seconds.</p>
+
+        <button class="startBtn">Start Quiz</button>
+    </div>
+
+    <div class="page1 hide">
+    </div>
+
+    <div class="page2 hide">
+        <h2>Arrays in JavaScript can be used to store _____.</h2>
+        <button>1. Numbers and strings</button>
+        <br>
+        <button>2. Other arrays</button>
+        <br>
+        <button>3. Booleans</button>
+        <br>
+        <button>4. All the above</button>
+        <br>
+        <p class="correct"></p>
+        <p class="incorrect"></p>
+    </div>
+
+    <div class="lastpage hide">
+        <h2>All Done!</h2>
+        <p>Your final score is </p>
+        Enter initials: <input type="text">
+        <button class="submit">Submit</button>
+    </div>
+
+    <div class="highscore hide">
+        <h2>Highscores</h2>
+        <div class="displayscore"></div>
+        <button class="back">Go Back</button>
+        <button class="clearscore">Clear Highscores</button>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+<!-- if user clicks correct answer, then next question
+else if - the user clicks and inccoret answer
+subtract 10 seconds from remaining time
+when no remainings questions or time out
+display results page
+results page = an input for your initials, the remaining seconds and a button to submit
+submiut btn saves the initals and the time remaing score to locaal storage -->
+
+<!-- hard part is knowing how to structure it all
+how to structure when to go to the next question, stop timer,  -->
