@@ -14,7 +14,7 @@ The user will be welcomed by a page which describes the rules of the game and ha
 
 ## Links
 
-Link to Heroku deployment: <https://glevii.github.io/Code_Quiz/>
+Link to deployment: <https://glevii.github.io/Code_Quiz/>
 
 ## Questions
 
