@@ -42,6 +42,7 @@ function startGame() {
     introPage.classList.add("hide")
     page1.classList.remove("hide")
     stopClock = setInterval(countDown, 1000)
+    nextQuestion();
 }
 
 function countDown() {
@@ -64,9 +65,9 @@ function nextQuestion() {
     //currentTopScores = [];
     // else 
     // currentTopScores = JSON.parse(currentTOpSCores)
-})
+// })
 
-function generateCompletePage() {
+// function generateCompletePage() {
     // can hide the page1. innerhtml
     // show your results sections - unhide it - classList
     // need a queryselector on the final score of what it is, add a div to html.
@@ -78,7 +79,7 @@ function generateCompletePage() {
     // currentTopScores.push(score):
     // localStorage.setItem("topScores", JSON.stringify(currentTopScores)
     
-}
+// }
 
 function generateQuestions() {
     page1.innerHTML = `
